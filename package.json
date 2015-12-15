@@ -3,11 +3,14 @@
   "version": "0.0.0",
   "description": "",
   "main": "server.js",
+  "devDependencies": {
+    "jshint": "^2.6.0"
+  },
   "dependencies": {
     "express": "^4.13.3"
   },
   "scripts": {
-  
+  "test": "./node_modules/jshint/bin/jshint server.js",
 	"start":"node server.js"
   },
   "author": "",
